@@ -1,0 +1,60 @@
+{
+  "name": "web-react-admin-page",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/react": "16.8.14",
+    "bootstrap": "4.3.1",
+    "chart.js": "2.8.0",
+    "classnames": "2.2.6",
+    "history": "4.9.0",
+    "node-sass": "4.11.0",
+    "perfect-scrollbar": "1.4.0",
+    "prop-types": "15.7.2",
+    "react-chartjs-2": "2.7.6",
+    "react-notification-alert": "0.0.12",
+    "reactstrap": "8.0.0",
+    "react-router-dom": "^5.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-scss": "node-sass src/assets/scss/black-dashboard-react.scss src/assets/css/black-dashboard-react.css"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb",
+      "prettier"
+    ],
+    "parser": "babel-eslint",
+    "rules": {
+      "react/prefer-stateless-function": 0,
+      "react/jsx-filename-extension": 0,
+      "react/jsx-one-expression-per-line": 1,
+      "import/no-named-as-default": 1,
+      "import/no-named-as-default-member": 1,
+      "react/no-string-refs": 1,
+      "no-plusplus": 1,
+      "react/no-access-state-in-setstate": 1
+    },
+    "env": {
+      "browser": true
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0"
+  }
+}
